@@ -1,0 +1,44 @@
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/login-style.css">
+	<script src="js/check.js"></script>
+	<script src="js/login.js"></script>
+</head>
+
+<div id="title">
+	<div id="net">NET</div>
+	<div id="soc">
+		<div id="s">
+			<div class="original">s</div>
+		</div>
+		<div class="overlap" id="o">
+			<div class="original">o</div>
+			<div class="shadow">o</div>
+		</div>
+		<div class="overlap" id="c">
+			<div class="original">c</div>
+			<div class="shadow">c</div>
+		</div>
+	</div>
+
+</div>
+
+<form id="signup" action="signup.php" method="post">
+	<div class="title"><span>Sign Up</span></div>
+	<div id="username-status">
+		<input name="username" id="new-username" placeholder="Username" type="text" required>
+		<div id="status"></div>
+	</div>
+	<input name="password" id="new-password" placeholder="Password" type="password" required>
+	<input name="email" id="email" placeholder="Email" type="email" required>
+	<input name="name" id="name" placeholder="Full Name" type="text" required>
+	<input id="submit" type="submit" value="Sign Up" disabled="disabled">
+</form>
+
+<form id="login" action="login.php" method="post">
+	<div class="title"><span>Login</span></div>
+	<input name="username" id="username" placeholder="Username" type="text" required>
+	<input name="password" id="password" placeholder="Password" type="password" required>
+	<input id="log" type="submit" value="Login" disabled="disabled">
+</form>
