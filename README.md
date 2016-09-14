@@ -1,7 +1,7 @@
 # NETsocLeaderboard
 A leaderboarding system intended for UOIT's NETsoc. 
 
-You need a conf.txt in /php containing the username and password for your MySQL instance. The username and password should be on separate, consecutive lines. **This file is not included and must be created.**
+You need a `conf.txt` in the `/php` directory containing the username and password for your MySQL instance. The username and password should be on separate, consecutive lines. **This file is not included and must be created.**
 ## Example
 Contents of `/NETsocLeaderboard/php/conf.txt`
 ```
