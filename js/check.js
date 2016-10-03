@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
 		var user = this.value;
 		if (user) {
 			var request = new XMLHttpRequest();
-			request.open('POST', '../php/check.php', true);
+			request.open('POST', '../check.php', true);
 			request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 			request.send('username=' + user);
 			request.onreadystatechange = function () {

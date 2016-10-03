@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
 function loadLeaderboard() {
 	var request = new XMLHttpRequest();
-	request.open('POST', '../php/leaderboard.php', true);
+	request.open('POST', '../leaderboard.php', true);
 	request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 	request.send('refresh=true');
 	request.onreadystatechange = function () {
