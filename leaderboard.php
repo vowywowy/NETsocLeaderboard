@@ -1,5 +1,5 @@
 <?php
-include "connection.php";
+include "php/connection.php";
 
 if(isset($_POST['refresh'])){	
 	$token = mysqli_real_escape_string($conn, $_POST['refresh']);
